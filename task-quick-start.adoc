@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task-quick-start.html 
+keywords: set up google cloud netapp volumes, quick start 
+summary: 通过设置 Google Cloud 然后创建系统来开始使用Google Cloud NetApp Volumes 。 
+---
+= 入门工作流程
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+通过设置 Google Cloud，然后创建系统来开始使用Google Cloud NetApp Volumes 。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] link:task-set-up-gcnv.html["设置Google Cloud NetApp Volumes"]
+[role="quick-margin-para"]
+从 Google 创建一个服务帐户。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] link:task-create-working-env.html["添加系统"]
+[role="quick-margin-para"]
+在NetApp控制台中，单击 *添加系统*，然后单击 *Google Cloud Platform*，然后单击 * Google Cloud NetApp Volumes*，然后单击 *发现*。提供有关服务帐户和 Google Cloud 项目的详细信息。

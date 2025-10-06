@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: task-create-working-env.html 
+keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients, netapp console 
+summary: 在NetApp控制台中添加 Netapp Volumes for Google Cloud 系统以查看和管理卷。 
+---
+= 添加Google Cloud NetApp Volumes系统
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+设置服务帐户后，在NetApp控制台中添加Google Cloud NetApp Volumes系统，以便您可以查看Google Cloud NetApp Volumes实例。
+
+此订阅的云卷显示在系统中。
+
+
+NOTE: 如果您在多个 Google Cloud 项目中拥有订阅和卷，则需要为每个项目执行此任务。
+
+.开始之前
+为每个项目添加订阅时，您必须提供以下信息：
+
+* 服务帐户凭据（您下载的 JSON 私钥）
+* 项目名称
+
+
+.步骤
+. 从NetApp控制台菜单中，选择“*存储*”，然后选择“*管理*”。
+. 在系统页面上，选择*添加系统*并选择*Google Cloud Platform*。
+. 在 * Google Cloud NetApp Volumes* 旁边，选择 *Discover*。
+. 提供有关您的NetApp Volumes 订阅的信息：
++
+.. 输入您想要使用的系统名称。
+.. 复制/粘贴您在前面步骤中下载的 JSON 私钥。
+.. 选择*应用凭据*。
+.. 选择您的 Google Cloud 项目的名称。
+.. 选择您想要创建系统的区域。该区域必须是Google Cloud NetApp Volumes支持的区域之一。
+.. 选择*发现*。
++
+image:screenshot_create_environment.png["添加Google Cloud NetApp Volumes订阅凭证的屏幕截图。"]
+
+
+
+
+
+.结果
+控制台显示您的Google Cloud NetApp Volumes系统。
+
+image:screenshot_gcnv_environment.png["Google Cloud NetApp Volumes Service 系统的屏幕截图。"]
+
+.下一步是什么？
+link:task-manage-volumes.html["查看您的卷"] 。
