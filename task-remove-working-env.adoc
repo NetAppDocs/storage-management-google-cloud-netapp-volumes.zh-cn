@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-remove-working-env.html 
 keywords: remove working environment, delete working environment, remove system, delete system, remove google cloud netapp volumes, remove, delete 
-summary: 您可以从NetApp控制台中删除Google Cloud NetApp Volumes for Google Cloud 订阅和所有现有卷。此操作将从NetApp控制台中删除Google Cloud NetApp Volumes 。它不会删除您的Google Cloud NetApp Volumes帐户或卷。您可以随时将Google Cloud NetApp Volumes添加回NetApp控制台。 
+summary: 您可以从NetApp Console中删除Google Cloud NetApp Volumes for Google Cloud 订阅和所有现有卷。此操作将从NetApp Console中删除Google Cloud NetApp Volumes。它不会删除您的Google Cloud NetApp Volumes帐户或卷。您可以随时将Google Cloud NetApp Volumes添加回NetApp Console。 
 ---
-= 从NetApp控制台中删除Google Cloud NetApp Volumes
+= 从NetApp Console中删除Google Cloud NetApp Volumes
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,10 +14,10 @@ summary: 您可以从NetApp控制台中删除Google Cloud NetApp Volumes for Goo
 
 
 [role="lead"]
-您可以从NetApp控制台中删除Google Cloud NetApp Volumes订阅和所有现有卷。这些卷不会被删除，它们会从NetApp控制台内的所有项目中删除，并且以后可以重新发现。
+您可以从NetApp Console中删除Google Cloud NetApp Volumes订阅和所有现有卷。这些卷不会被删除，它们会从NetApp Console内的所有项目中删除，并且以后可以重新发现。
 
 
-TIP: 您无法从NetApp控制台删除Google Cloud NetApp Volumes。使用 Google Cloud Console 执行此操作。
+TIP: 您无法从NetApp Console删除Google Cloud NetApp Volumes。使用 Google Cloud Console 执行此操作。
 
 .步骤
 . 打开系统。
