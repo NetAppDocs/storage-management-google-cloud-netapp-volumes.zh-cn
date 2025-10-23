@@ -21,7 +21,7 @@ NetApp Volumes 有助于加快部署时间、管理工作负载和应用程序�
 
 NOTE: 要开始使用Google Cloud NetApp Volumes，您必须拥有适当的权限以及分配给您的Google Cloud NetApp Volumes管理员或 Google Cloud NetApp查看器角色。 https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解所有服务的NetApp Console访问角色"^]。
 
-+ image:role_gcnv.png["Google Cloud NetApp Volumes角色的屏幕截图。"]
+image:role_gcnv.png["Google Cloud NetApp Volumes角色的屏幕截图。"]
 
 
 
