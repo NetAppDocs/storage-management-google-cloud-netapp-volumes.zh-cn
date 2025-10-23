@@ -40,9 +40,6 @@ NOTE: 如果您在多个 Google Cloud 项目中拥有订阅和卷，则需要为
 .. 选择您的 Google Cloud 项目的名称。
 .. 选择您想要创建系统的区域。该区域必须是Google Cloud NetApp Volumes支持的区域之一。
 .. 选择*发现*。
-+
-image:screenshot_create_environment.png["添加Google Cloud NetApp Volumes订阅凭证的屏幕截图。"]
-
 
 
 
