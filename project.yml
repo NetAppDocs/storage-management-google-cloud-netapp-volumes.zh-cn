@@ -24,15 +24,17 @@ sidebar:
       url: "/concept-gcnv.html"
     - title: 入门工作流程
       url: "/task-quick-start.html"
-    - title: 设置 Google Cloud
+    - title: 设置Google Cloud NetApp Volumes
       url: "/task-set-up-gcnv.html"
+    - title: 分配Google Cloud NetApp Volumes角色
+      url: "/task-add-roles.html"
     - title: 添加系统
       url: "/task-create-working-env.html"
   - title: 使用Google Cloud NetApp Volumes
     entries:
     - title: 管理卷
       url: "/task-manage-volumes.html"
-    - title: 删除Google Cloud NetApp Volumes
+    - title: 移除卷
       url: "/task-remove-working-env.html"
   - title: 知识和支持
     entries:

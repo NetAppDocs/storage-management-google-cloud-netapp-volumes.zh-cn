@@ -16,7 +16,7 @@ summary: 设置系统后，您可以查看您的 Google Cloud NetApp卷。
 [role="lead"]
 您可以查看现有卷以及对其执行的任何操作。
 
-*所需的NetApp Console角色* 组织管理员、文件夹或项目管理员，或Google Cloud NetApp Volumes管理员角色。 https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解所有服务的NetApp Console访问角色"^] 。
+*必需的NetApp Console角色* Google Cloud NetApp Volumes管理员或Google Cloud NetApp Volumes查看者角色。 https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解所有服务的NetApp Console访问角色"^] 。
 
 
 

@@ -19,8 +19,7 @@ NetApp Console需要通过 Google Cloud 服务帐户获得正确的权限。
 完成以下任务，以便NetApp Console可以访问您的 Google Cloud 项目。
 
 * 如果您还没有服务帐户，请创建一个新的。
-* 将服务帐户成员添加到您的项目并为其分配特定的角色（权限）。
-* 为用于向 Google 进行身份验证的服务帐户创建并下载密钥对。
+* 允许冒充他人访问。
 * 在共享项目中授予 IAM 角色。
 
 
@@ -30,49 +29,18 @@ NetApp Console需要通过 Google Cloud 服务帐户获得正确的权限。
 
 . 在 Google Cloud 控制台中， https://console.cloud.google.com/iam-admin/serviceaccounts["前往服务帐户页面"^] 。
 . 单击*选择项目*，选择您的项目，然后单击*打开*。
-. （可选）要创建服务帐户，请执行以下操作：
+. 要创建服务帐户，请执行以下操作：
 +
 .. 点击*创建服务帐户*。
 .. 输入服务帐户名称（友好显示名称）和描述。
 +
 Google Cloud Console 根据此名称生成服务帐户 ID。如有必要，请编辑 ID - 您以后无法更改 ID。
 
-.. 要立即设置访问控制，请单击页面底部的“创建”然后单击“完成”，然后继续下一步。
-
-
-
-
-
-
-== 创建并下载密钥对
-
-. 在 https://console.cloud.google.com/iam-admin/serviceaccounts["服务帐户页面"^]，找到并点击服务帐户名称。
-. 在“服务帐户详细信息”页面中，单击“添加密钥”，然后单击“创建新密钥”。
-. 选择 *JSON* 作为密钥类型，然后单击 *创建*。
-+
-通过单击*创建*，您的新公钥/私钥对将生成并下载到您的系统。它是私钥的唯一副本。安全地存储此文件，因为它可用于验证您的服务帐户。
-
-
-
-
-
-== 添加服务帐户成员
-
-. 登录 https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html["NetApp Console"]。
-. 选择*管理*，然后选择*身份和访问*。
-. 单击“添加”并填写“添加成员”页面中的字段：
-+
-.. 在新成员字段中，输入完整服务帐户 ID。
-+
-例如：\user1-service-account-gcnv@project1.iam.gserviceaccount.com
-
-.. 添加以下角色之一：
-+
-*** _Google Cloud NetApp Volumes Admin_ 或
-*** Google Cloud NetApp卷查看器
-
-
-.. 单击“保存”。
+.. 点击“创建并继续”。
+.. 从角色列表中，选择 * Google Cloud NetApp Volumes管理员* 或 *Google Cloud NetApp查看者* 角色。
+.. 选择*继续*。
+.. 授予此服务帐户模拟访问权限：credentials-sa@wf-production-netapp.iam.gserviceaccount.com。有关详细信息，请参阅 https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt["创建自签名 JSON Web Token (JWT)"^]。
+.. 点击页面底部的“完成”按钮，然后继续下一步。
 
 
 
@@ -86,14 +54,26 @@ Google Cloud Console 根据此名称生成服务帐户 ID。如有必要，请�
 . 在_IAM 页面_中，从项目下拉菜单中选择共享 VPC 主机项目。
 . 单击“添加主体”。
 . 在“新主体”字段中，输入您的服务帐户的电子邮件地址。
-. 从选择角色下拉菜单中，选择Google Cloud NetApp Volumes管理员角色。
+. 从“选择角色”下拉菜单中，选择“* Google Cloud NetApp Volumes管理员*”角色。
 . 单击“保存”。
 
 
 详细步骤请参考Google Cloud文档：
 
-* link:https://cloud.google.com/iam/docs/roles-permissions/netapp["Google Cloud NetApp Volumes角色和权限"^]
 * link:https://cloud.google.com/iam/docs/creating-managing-service-accounts["创建和管理服务帐户"^]
+* link:https://cloud.google.com/iam/docs/roles-permissions/netapp["Google Cloud NetApp Volumes角色和权限"^]
 * link:https://cloud.google.com/iam/docs/granting-changing-revoking-access["授予、更改和撤销对资源的访问权限"^]
-* link:https://cloud.google.com/iam/docs/creating-managing-service-account-keys["创建和管理服务帐户密钥"^]
 
+
+
+
+== 故障排除
+
+如果遇到错误，可能会强制执行 *iam.disableCrossProjectServiceAccountUsage* 策略。要解决此问题，请执行以下操作：
+
+. 在 Google Cloud 控制台中，转到 https://console.cloud.google.com/iam-admin/orgpolicies["组织政策页面"^]。
+. 找到“禁用跨项目服务帐户使用”策略并将其禁用。
+
+
+.下一步是什么？
+link:task-add-roles.html["分配Google Cloud NetApp Volumes角色"]。

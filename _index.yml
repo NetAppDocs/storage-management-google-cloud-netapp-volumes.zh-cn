@@ -17,6 +17,8 @@ indexpage:
     links:
     - title: 管理卷
       url: task-manage-volumes.html
+    - title: 移除卷
+      url: task-remove-working-env.html
   - title: 博客和社区
     links:
     - title: NetApp Console
