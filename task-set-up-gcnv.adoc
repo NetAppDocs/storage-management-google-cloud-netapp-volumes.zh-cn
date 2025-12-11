@@ -40,6 +40,9 @@ Google Cloud Console 根据此名称生成服务帐户 ID。如有必要，请�
 .. 从角色列表中，选择 * Google Cloud NetApp Volumes管理员* 或 *Google Cloud NetApp查看者* 角色。
 .. 选择*继续*。
 .. 授予此服务帐户模拟访问权限：credentials-sa@wf-production-netapp.iam.gserviceaccount.com。有关详细信息，请参阅 https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt["创建自签名 JSON Web Token (JWT)"^]。
++
+NetApp拥有的服务帐户用于请求一个短期访问令牌，该令牌允许您以该服务帐户的身份进行操作，而无需访问其私钥。
+
 .. 点击页面底部的“完成”按钮，然后继续下一步。
 
 

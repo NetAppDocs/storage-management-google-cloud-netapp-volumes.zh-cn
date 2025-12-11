@@ -35,7 +35,7 @@ NOTE: 如果您在多个 Google Cloud 项目中拥有订阅和卷，则需要为
 . 提供有关您的NetApp Volumes 订阅的信息：
 +
 .. 输入您想要使用的系统名称。
-.. 粘贴关联的 Google 服务帐户电子邮件地址：credentials-sa@wf-production-netapp.iam.gserviceaccount.com。
+.. 粘贴关联的 Google 服务帐户电子邮件地址。有关详细信息，请参阅link:task-set-up-gcnv.html["设置服务帐户"]。
 .. 选择“应用凭据”以检索项目名称和区域。
 .. 从“*项目名称*”中选择您的 Google Cloud 项目的名称。
 .. 从“区域”中选择要创建系统的区域。该区域必须是Google Cloud NetApp Volumes支持的区域之一。
