@@ -29,13 +29,13 @@ sidebar:
     - title: 分配Google Cloud NetApp Volumes角色
       url: "/task-add-roles.html"
     - title: 添加系统
-      url: "/task-create-working-env.html"
+      url: "/task-create-system.html"
   - title: 使用Google Cloud NetApp Volumes
     entries:
     - title: 管理卷
       url: "/task-manage-volumes.html"
     - title: 移除卷
-      url: "/task-remove-working-env.html"
+      url: "/task-remove-system.html"
   - title: 知识和支持
     entries:
     - title: 注册以获得支持
