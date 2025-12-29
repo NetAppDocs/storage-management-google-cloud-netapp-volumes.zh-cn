@@ -46,4 +46,4 @@ summary: NetApp Console需要为成员分配正确的角色。
 
 
 .下一步是什么？
-link:task-create-working-env.html["添加Google Cloud NetApp Volumes系统"]。
+link:task-create-system.html["添加Google Cloud NetApp Volumes系统"]。
