@@ -16,7 +16,10 @@ summary: NetApp Console需要通过 Google Cloud 服务帐户访问Google Cloud 
 [role="lead"]
 NetApp Console需要通过 Google Cloud 服务帐户获得正确的权限。
 
-完成以下任务，以便NetApp Console可以访问您的 Google Cloud 项目。
+完成以下任务，以便 NetApp Console 可以访问您的 Google Cloud 项目。
+
+
+NOTE: 您可以使用 Google Cloud 控制台或 gcloud CLI 执行这些任务。要使用 gcloud CLI，您必须先link:https://cloud.google.com/sdk/docs/install-sdk["已安装 Google Cloud CLI"^]。
 
 * 如果您还没有服务帐户，请创建一个新的。
 * 允许冒充他人访问。
@@ -39,10 +42,26 @@ Google Cloud Console 根据此名称生成服务帐户 ID。如有必要，请�
 .. 点击“创建并继续”。
 .. 从角色列表中，选择 * Google Cloud NetApp Volumes管理员* 或 *Google Cloud NetApp查看者* 角色。
 .. 选择*继续*。
++
+或者，您可以使用 gcloud CLI 分配角色：
+
++
+[source, cli]
+----
+gcloud projects add-iam-policy-binding <YOUR_PROJECT_ID> --member="serviceAccount:<YOUR_SA_EMAIL>" --role="roles/netapp.admin"
+----
 .. 授予此服务帐户模拟访问权限：credentials-sa@wf-production-netapp.iam.gserviceaccount.com。有关详细信息，请参阅 https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt["创建自签名 JSON Web Token (JWT)"^]。
 +
 NetApp拥有的服务帐户用于请求一个短期访问令牌，该令牌允许您以该服务帐户的身份进行操作，而无需访问其私钥。
 
++
+或者，您可以使用 gcloud CLI 授予模拟访问权限：
+
++
+[source, cli]
+----
+gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="serviceAccount:credentials-sa@wf-production-netapp.iam.gserviceaccount.com" --role="roles/iam.serviceAccountTokenCreator" --project=<YOUR_PROJECT_ID>
+----
 .. 点击页面底部的“完成”按钮，然后继续下一步。
 
 
@@ -59,6 +78,14 @@ NetApp拥有的服务帐户用于请求一个短期访问令牌，该令牌允�
 . 在“新主体”字段中，输入您的服务帐户的电子邮件地址。
 . 从“选择角色”下拉菜单中，选择“* Google Cloud NetApp Volumes管理员*”角色。
 . 单击“保存”。
++
+或者，您可以使用 gcloud CLI 添加 IAM 策略绑定：
+
++
+[source, cli]
+----
+gcloud projects add-iam-policy-binding <SHARED_VPC_HOST_PROJECT_ID> --member="serviceAccount:<YOUR_SA_EMAIL>" --role="roles/netapp.admin"
+----
 
 
 详细步骤请参考Google Cloud文档：
