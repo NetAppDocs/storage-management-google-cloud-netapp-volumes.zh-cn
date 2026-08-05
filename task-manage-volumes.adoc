@@ -20,6 +20,7 @@ summary: 设置系统后，您可以查看您的 Google Cloud NetApp卷。
 
 
 
+[[view-a-volume]]
 == 查看卷
 
 查看卷的详细信息，例如其名称、数量、区域、容量、已用容量和存储池。
@@ -32,6 +33,7 @@ summary: 设置系统后，您可以查看您的 Google Cloud NetApp卷。
 
 
 
+[[view-the-audit-log]]
 == 查看审核日志
 
 您可以在时间轴中查看对卷执行的所有操作。

@@ -25,6 +25,7 @@ image:role_gcnv.png["Google Cloud NetApp Volumes角色的屏幕截图。"]
 
 
 
+[[features]]
 == 功能
 
 * 更快、更高效地运行企业应用程序。
@@ -35,6 +36,7 @@ image:role_gcnv.png["Google Cloud NetApp Volumes角色的屏幕截图。"]
 
 
 
+[[cost]]
 == 成本
 
 Google Cloud NetApp Volumes创建的卷的费用将从您的服务订阅中扣除，而不是通过NetApp Console收取。
@@ -43,12 +45,14 @@ Google Cloud NetApp Volumes创建的卷的费用将从您的服务订阅中扣�
 
 
 
+[[supported-regions]]
 == 支持的区域
 
 https://cloud.google.com/netapp/volumes/docs/discover/service-levels#supported_regions["查看受支持的Google Cloud NetApp Volumes区域"^]
 
 
 
+[[getting-help]]
 == 获取帮助
 
 如需技术支持，请通过 Google Cloud 门户记录请求。选择您的 Google Cloud 订阅和 *存储* 下的 * Google Cloud NetApp Volumes* 服务。填写所需信息。
@@ -59,6 +63,7 @@ https://cloud.google.com/netapp/volumes/docs/discover/service-levels#supported_r
 
 
 
+[[related-links]]
 == 相关链接
 
 * https://cloud.google.com/netapp/volumes/docs/discover/overview["Google Cloud NetApp Volumes文档"^]
