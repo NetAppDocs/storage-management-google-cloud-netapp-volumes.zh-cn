@@ -61,8 +61,6 @@
   <block id="163a3c387d8c61dece62282d1f9e796f" category="paragraph">此订阅的云卷显示在系统中。</block>
   <block id="b7c67692dc38dca98edc62b4b29f83d8" category="admonition">如果您在多个 Google Cloud 项目中拥有订阅和卷，则需要为每个项目执行此任务。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">开始之前</block>
-  <block id="107a414e0bf62dc36bb6bbde7bcd19de" category="paragraph">为每个项目添加订阅时，您必须提供以下信息：</block>
-  <block id="7adea0d9c77aabccd8bb67ae0a832d59" category="list-text">项目名称</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
   <block id="68ab6a6d7a40667d53edebc13dbf3f3a" category="list-text">从NetApp Console菜单中，选择“*存储*”，然后选择“*管理*”。</block>
   <block id="68bcc46b8018dd326b42dec2f75f6453" category="list-text">在系统页面上，选择*添加系统*并选择*Google Cloud Platform*。</block>
@@ -152,7 +150,6 @@
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*更新案例说明*：提供有关您的问题的更多详细信息，或选择*上传文件*以附加最多五个文件。</block>
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*结案*：提供有关结案原因的详细信息，然后选择*结案*。</block>
   <block id="f4688d95f28052e3af5b9387c898c5bf" category="summary">设置系统后，您可以查看您的 Google Cloud NetApp卷。</block>
-  <block id="9038e7cfcfe9bb9df9afd31371070be8" category="doc">管理现有卷</block>
   <block id="182a9bef86de098b538c3c82dd415b3d" category="paragraph">您可以查看现有卷以及对其执行的任何操作。</block>
   <block id="a5999c1155de9850d34ba60075be7171" category="inline-link">了解所有服务的NetApp Console访问角色</block>
   <block id="6b3c1595afc04f7a21a3249b677c0c9b" category="section-title">查看卷</block>
@@ -165,16 +162,10 @@
   <block id="042f0d2136855bcd9717a113dbfba91f" category="paragraph">您可以在时间轴中查看对卷执行的所有操作。</block>
   <block id="e1e12bbb649f3bf69b43ac6961ea915b" category="list-text">在右上角，选择*设置*，然后选择*时间线*。</block>
   <block id="4e86398dd959a1b1f62fff6ab6207875" category="paragraph">在*审计日志*表中，您可以查看对卷执行的任何操作。</block>
-  <block id="7c9227c0b3486490a4814fe5ca042183" category="summary">通过设置 Google Cloud 然后创建系统来开始使用Google Cloud NetApp Volumes 。</block>
-  <block id="65ce4dce26160be29539699c6623e379" category="doc">入门工作流程</block>
-  <block id="a213ab2be24278e031afba73382d0cf1" category="paragraph">通过设置 Google Cloud，然后创建系统来开始使用Google Cloud NetApp Volumes 。</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一个</block>
   <block id="77cb49dd0e189cd2b264b8acf283654d" category="inline-link-macro">设置Google Cloud NetApp Volumes</block>
-  <block id="aabf26ebaf076d5d9a7111d4e0bc4cae" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="eea1a4cfc6828b367997af0d6bacca69" category="inline-link-macro-rx"></block></block>
-  <block id="91b07957ce4b7cb970c3aaa153fddf0c" category="paragraph">从 Google 创建一个服务帐户。</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">两个</block>
   <block id="770e6e1d37ec8e564116ac215a622e66" category="inline-link-macro">添加系统</block>
-  <block id="05c5a25d7a79c44ec89bb64914a00a71" category="paragraph">在NetApp Console中，单击 *添加系统*，然后单击 *Google Cloud Platform*，然后单击 * Google Cloud NetApp Volumes*，然后单击 *发现*。提供有关服务帐户和 Google Cloud 项目的详细信息。</block>
   <block id="fc75bc39ba620b6d4598432bb5ae020b" category="summary">您可以从NetApp Console中删除Google Cloud NetApp Volumes for Google Cloud 订阅和所有现有卷。此操作将从NetApp Console中删除Google Cloud NetApp Volumes。它不会删除您的Google Cloud NetApp Volumes帐户或卷。您可以随时将Google Cloud NetApp Volumes添加回NetApp Console。</block>
   <block id="334006e84c34586f1513f28c3d9b223d" category="doc">从NetApp Console中删除Google Cloud NetApp Volumes</block>
   <block id="9e1c6e7951ed61fcf04e7477847de4aa" category="paragraph">您可以从NetApp Console中删除Google Cloud NetApp Volumes订阅和所有现有卷。这些卷不会被删除，它们会从NetApp Console内的所有项目中删除，并且以后可以重新发现。</block>
@@ -267,12 +258,10 @@
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">三个水平点的图标</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项会提示您再次登录。请注意，这些帐户的令牌将在 90 天后过期。我们将发布通知来提醒您此事。</block>
   <block id="a970e07804599229aa5234eab66f5ddf" category="summary">了解NetApp Console中Google Cloud NetApp Volumes支持的新功能。</block>
-  <block id="490414e0366b091220802d406e52c076" category="doc">什么是新的</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
   <block id="6bf86021a24fd009a31d432250a9ad20" category="section-title">2025年7月21日</block>
   <block id="cf84d451110e9b07533e6d8460d4b4e1" category="sidebar">Google Cloud NetApp Volumes使企业能够在 Google 中迁移和运行其性能密集型和延迟敏感的核心业务关键型应用程序，而无需针对云进行重构。本文档介绍如何使用NetApp Console设置和管理Google Cloud NetApp Volumes。</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">开始使用</block>
-  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">快速启动</block>
   <block id="11fc1a6248b661c1127bde02baf33747" category="sidebar">使用Google Cloud NetApp Volumes</block>
   <block id="e2439a8512b353f75391ba9c346bc84d" category="sidebar">管理卷</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客和社区</block>
@@ -282,7 +271,6 @@
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
   <block id="913de1bf08a6316fa527cd3eea7e91ef" category="list-text">在共享项目中授予 IAM 角色。</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="inline-link">NetApp Console</block>
-  <block id="32b6c123fa99d96b6a9c161ccb30c98d" category="list-text">选择*管理*，然后选择*身份和访问*。</block>
   <block id="b23792ea5534855a59329a6f9910a2bb" category="section-title">共享 VPC</block>
   <block id="d4f2a874cc586f639aad0321d236f3f1" category="list-text">在_IAM 页面_中，从项目下拉菜单中选择共享 VPC 主机项目。</block>
   <block id="5080561aad5ebf08cf55792d34a54478" category="list-text">单击“添加主体”。</block>
@@ -298,7 +286,6 @@
   <block id="057361cf161ae80b60b9e7255a11be5c" category="summary">NetApp Console需要为成员分配正确的角色。</block>
   <block id="243d7594511b843c804f0bc07ac129b2" category="doc">分配Google Cloud NetApp Volumes角色</block>
   <block id="75ff95ef617b58219e71a388f1b5e45e" category="paragraph">要开始使用Google Cloud NetApp Volumes，您必须在NetApp Console中为成员分配正确的角色。有关详细信息，请参阅<block ref="e5d24b6c28284fa38e3f4f0358d9e595" category="inline-link-macro-rx"></block>。</block>
-  <block id="a3aec62d81b29c91ae211058e69a0d59" category="section-title">为服务帐户成员分配角色</block>
   <block id="74c620fd7a8a7d5d204db420599b44b7" category="list-text">登录<block ref="9c94c7dd8d22c14ad85dc4b22da4f94b" category="inline-link-rx"></block>。</block>
   <block id="e3b7f8faaf6d4baf5612c47ee10923ae" category="list-text">选择操作菜单<block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block>在要分配角色的成员旁边，选择“添加角色”。</block>
   <block id="5f4f2140800f25dcab7691933bfbdbdb" category="list-text">要添加角色，请完成对话框中的步骤：</block>
@@ -312,13 +299,8 @@
   <block id="68b5a483d6fcf76e4c38e6c4a401ef56" category="list-text">Google Cloud NetApp Volumes 查看器</block>
   <block id="75a4a42dcdb6ed59e56039807b8e36fe" category="list-text">添加角色：如果您想提供对组织内其他文件夹或项目的访问权限，请选择“添加角色”，指定另一个文件夹、项目或角色类别，然后选择角色类别和相应的角色。</block>
   <block id="a09853f10b1e18c9e2f541f7e1763305" category="list-text">选择*添加新角色*。</block>
-  <block id="ab1dab4c743d79632ef6d8713763e8d2" category="list-text">Google 服务帐户电子邮件地址</block>
-  <block id="53b4170efa88b9e39c22f67a2c5c13da" category="list-text">选择“应用凭据”以检索项目名称和区域。</block>
-  <block id="7de846f0f4d481f8d5514f7cd985147d" category="list-text">从“*项目名称*”中选择您的 Google Cloud 项目的名称。</block>
-  <block id="035a4567c3372192964d63db5f9bdd6e" category="list-text">从“区域”中选择要创建系统的区域。该区域必须是Google Cloud NetApp Volumes支持的区域之一。</block>
   <block id="880893c2458d9a19b9c42bde3432ab1c" category="paragraph">*必需的NetApp Console角色* Google Cloud NetApp Volumes管理员或Google Cloud NetApp Volumes查看者角色。<block ref="8d054a08e0e901ba9c326f172eb3627b" category="inline-link-rx"></block> 。</block>
   <block id="c14bbe70b91bf5d6b061027d2a7d5c35" category="inline-link-macro">分配角色</block>
-  <block id="202fff1a22ad6746f62f817c50162005" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="7636ea90210cd657bcc56955b4579566" category="inline-link-macro-rx"></block></block>
   <block id="aaea90d2749395beb16f5340fe5cc964" category="paragraph">在NetApp Console中，为成员分配正确的角色。</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三</block>
   <block id="119cf90c9716f71114dbe3b9e13911b6" category="list-text">允许冒充他人访问。</block>
@@ -337,7 +319,6 @@
   <block id="8a5b2584efd2f1954d10a5072e5491dd" category="paragraph"><block ref="61e83af22a007916f84f7c17f5833a9d" category="inline-link-macro-rx"></block>。</block>
   <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025年11月27日</block>
   <block id="8372655369d67acc7142b2e8d34f9af7" category="sidebar">移除卷</block>
-  <block id="5b20dcb4d6ead9fcf4ad79a3f32c603e" category="list-text">粘贴关联的 Google 服务帐户电子邮件地址。有关详细信息，请参阅<block ref="2a10bb8ea1c6c9896523c5c7efdb9ddd" category="inline-link-macro-rx"></block>。</block>
   <block id="063d962f8b06a3e8ff542497811b0109" category="paragraph">NetApp拥有的服务帐户用于请求一个短期访问令牌，该令牌允许您以该服务帐户的身份进行操作，而无需访问其私钥。</block>
   <block id="ef9cb6cefb83593bb2298c3273f71497" category="paragraph"><block ref="b07a2136d7ec74e37b5d674038989f9e" category="inline-link-macro-rx"></block>。</block>
   <block id="e2b9b963de5a574643448d4341ba095d" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> <block ref="f17c135087ba7331aa786fe747b034f4" category="inline-link-macro-rx"></block></block>
@@ -352,7 +333,27 @@
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">这是一个系统生成的 ID，映射到您的电子邮件。在 *NSS Management* 页面上，您可以从 <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 菜单中显示您的电子邮件。</block>
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">如果您需要刷新登录凭据令牌，<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 菜单中还有 *Update Credentials* 选项。</block>
   <block id="2b5b357227eed641a3bd86d123eb3ac6" category="admonition">Google Cloud 项目权限更改可能需要几分钟才能生效。</block>
-  <block id="06a757f4492cc64438eda3ca3eb111b2" category="list-text">在角色列表中，选择 *Google Cloud NetApp Volumes Admin* 或 *Google Cloud NetApp Volumes Viewer* 角色。</block>
-  <block id="34f0896664ad94ea24b488080bc90944" category="admonition">对于暂存环境，请使用<block ref="2bebe1838cee8677133953ee797f4d0a" prefix=" " category="inline-code"></block>而不是生产服务帐户。将上述命令中的<block ref="e41d617895cb15aef8465d2dcb67fde1" prefix=" " category="inline-code"></block>参数值替换为<block ref="6b161ca4f09b2b5faab1957b52ed2c19" prefix=" " category="inline-code"></block>。</block>
   <block id="e2bb3fd2b13dd9ef09db422aee6f7e01" category="paragraph">在将使用服务帐户的每个其他 Google Cloud 项目中，请执行以下操作：</block>
+  <block id="d0773a774fe8f762b39c1f8a148c2a3a" category="doc">Google Cloud NetApp Volumes 法律声明</block>
+  <block id="3aac6c469e70a50a1714acf3ff8f079c" category="section-title">为 NetApp Console 用户分配角色</block>
+  <block id="8d0a386ee9b7437c6f73300ff44155b6" category="list-text">选择*管理*、*身份和访问权限*，然后选择*成员*。</block>
+  <block id="328e1cedf07f1eaf16a4995b8d857915" category="paragraph">在为每个项目添加系统之前，请确保：</block>
+  <block id="c0ccabb33748a5b4a25350659e77caa9" category="list-text">Google Cloud 服务帐户已设置，其凭据可在 NetApp Console 中使用。有关详细信息，请参见<block ref="eea1a4cfc6828b367997af0d6bacca69" category="inline-link-macro-rx"></block>。</block>
+  <block id="1a33afae28adbeab69b0cd3f7175ba68" category="list-text">您在 NetApp Console 中拥有 Google Cloud NetApp Volumes 管理员或查看者角色。有关详细信息，请参见 <block ref="61e83af22a007916f84f7c17f5833a9d" category="inline-link-macro-rx"></block>。</block>
+  <block id="2c5ae7f92d40dda0ab09697532d3f685" category="list-text">从*凭据*中，选择要使用的 Google Cloud NetApp Volumes 凭据。</block>
+  <block id="f8bd42d5c2205400b0ed783684a238e6" category="paragraph">如果未列出任何凭据，请先添加 Google Cloud NetApp Volumes 凭据，然后再继续。在凭据可用之前，项目和区域选择不可用。</block>
+  <block id="4c9d68cfaa8dcf5a80fa0ef73f532e82" category="list-text">在*区域*中，为 Google Cloud NetApp Volumes 选择一个受支持的区域。</block>
+  <block id="05c36d4b985444ac8842d41c24eb035c" category="doc">获取有关 Google Cloud NetApp Volumes 的帮助</block>
+  <block id="f301f88ce6b2c36d4104818d7fda48d4" category="doc">管理 Google Cloud NetApp Volumes 中的卷</block>
+  <block id="9a8fccbd850aa8643a89826b7a8fb208" category="summary">通过分配 NetApp Console 角色、添加凭据和发现系统，开始使用 Google Cloud NetApp Volumes。</block>
+  <block id="b0aa4fa8dc6511816bb58aa5617d1ee5" category="doc">Google Cloud NetApp Volumes 快速入门</block>
+  <block id="2999755d1730c0395dc6d69c2e4175da" category="paragraph">通过分配 NetApp Console 角色、添加凭据和发现系统，开始使用 Google Cloud NetApp Volumes。</block>
+  <block id="6827e95623228a9ea63986efaaca0b88" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="7636ea90210cd657bcc56955b4579566" category="inline-link-macro-rx"></block></block>
+  <block id="0f391d5482822722d86585c248878517" category="inline-link-macro">添加凭据</block>
+  <block id="6f2763cd3e02476cb119778797369b0f" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="2fd3a5be9d6b1b1b584f1ac1aa0e2f8e" category="inline-link-macro-rx"></block></block>
+  <block id="77d5ddb0fb660aaf755b6ed1f614b0c5" category="paragraph">在 NetApp Console 中，添加 Google Cloud NetApp Volumes 凭据。</block>
+  <block id="3d5dcea171c7a77f7cb0efa8c9a0cd1a" category="paragraph">在 NetApp Console 中，使用凭据、Google Cloud 项目和支持的区域发现系统。</block>
+  <block id="9089795bfd84428b4b5acba64940f17f" category="list-text">从角色列表中，选择 *Google Cloud NetApp Volumes 管理员* 或 *Google Cloud NetApp Volumes 查看者* 角色。</block>
+  <block id="e7483077a70b9fb68d4dedbb743eb469" category="doc">注册 Google Cloud NetApp Volumes 以获得支持</block>
+  <block id="807038cd9a74e3f2645f02e67eebf76a" category="doc">Google Cloud NetApp Volumes 的新增功能</block>
 </blocks>

@@ -4,7 +4,7 @@ permalink: task-manage-volumes.html
 keywords: google cloud netapp volumes, view volumes 
 summary: 设置系统后，您可以查看您的 Google Cloud NetApp卷。 
 ---
-= 管理现有卷
+= 管理 Google Cloud NetApp Volumes 中的卷
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

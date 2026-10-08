@@ -11,7 +11,7 @@ indexpage:
     links:
     - title: 了解Google Cloud NetApp Volumes
       url: concept-gcnv.html
-    - title: 快速启动
+    - title: Google Cloud NetApp Volumes 快速入门
       url: task-quick-start.html
   - title: 使用Google Cloud NetApp Volumes
     links:

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-set-up-gcnv.html 
-keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp, netapp console 
+keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, netapp console 
 summary: NetApp Console需要通过 Google Cloud 服务帐户访问Google Cloud NetApp Volumes API 并获得正确的权限。 
 ---
 = 设置Google Cloud NetApp Volumes
@@ -44,7 +44,7 @@ NOTE: Google Cloud 项目权限更改可能需要几分钟才能生效。
 Google Cloud Console 根据此名称生成服务帐户 ID。如有必要，请编辑 ID - 您以后无法更改 ID。
 
 .. 点击“创建并继续”。
-.. 在角色列表中，选择 *Google Cloud NetApp Volumes Admin* 或 *Google Cloud NetApp Volumes Viewer* 角色。
+.. 从角色列表中，选择 *Google Cloud NetApp Volumes 管理员* 或 *Google Cloud NetApp Volumes 查看者* 角色。
 .. 选择*继续*。
 +
 或者，您可以使用 gcloud CLI 分配角色：

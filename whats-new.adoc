@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
 summary: 了解NetApp Console中Google Cloud NetApp Volumes支持的新功能。 
 ---
-= 什么是新的
+= Google Cloud NetApp Volumes 的新增功能
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

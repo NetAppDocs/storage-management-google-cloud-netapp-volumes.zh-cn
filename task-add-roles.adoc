@@ -18,11 +18,11 @@ summary: NetApp Console需要为成员分配正确的角色。
 
 
 
-[[assign-roles-to-the-service-account-member]]
-== 为服务帐户成员分配角色
+[[assign-roles-to-netapp-console-users]]
+== 为 NetApp Console 用户分配角色
 
 . 登录 https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html["NetApp Console"^]。
-. 选择*管理*，然后选择*身份和访问*。
+. 选择*管理*、*身份和访问权限*，然后选择*成员*。
 . 选择操作菜单image:screenshot_gallery_options.gif["带有三个点的图标。"]在要分配角色的成员旁边，选择“添加角色”。
 . 要添加角色，请完成对话框中的步骤：
 +

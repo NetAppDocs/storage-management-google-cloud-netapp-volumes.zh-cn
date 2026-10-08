@@ -22,7 +22,7 @@ sidebar:
     entries:
     - title: 了解Google Cloud NetApp Volumes
       url: "/concept-gcnv.html"
-    - title: 入门工作流程
+    - title: Google Cloud NetApp Volumes 快速入门
       url: "/task-quick-start.html"
     - title: 设置Google Cloud NetApp Volumes
       url: "/task-set-up-gcnv.html"

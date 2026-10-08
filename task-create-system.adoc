@@ -22,10 +22,10 @@ summary: 在NetApp Console中添加 Netapp Volumes for Google Cloud 系统以查
 NOTE: 如果您在多个 Google Cloud 项目中拥有订阅和卷，则需要为每个项目执行此任务。
 
 .开始之前
-为每个项目添加订阅时，您必须提供以下信息：
+在为每个项目添加系统之前，请确保：
 
-* Google 服务帐户电子邮件地址
-* 项目名称
+* Google Cloud 服务帐户已设置，其凭据可在 NetApp Console 中使用。有关详细信息，请参见link:task-set-up-gcnv.html["设置Google Cloud NetApp Volumes"]。
+* 您在 NetApp Console 中拥有 Google Cloud NetApp Volumes 管理员或查看者角色。有关详细信息，请参见 link:task-add-roles.html["分配Google Cloud NetApp Volumes角色"]。
 
 
 .步骤
@@ -35,10 +35,11 @@ NOTE: 如果您在多个 Google Cloud 项目中拥有订阅和卷，则需要为
 . 提供有关您的NetApp Volumes 订阅的信息：
 +
 .. 输入您想要使用的系统名称。
-.. 粘贴关联的 Google 服务帐户电子邮件地址。有关详细信息，请参阅link:task-set-up-gcnv.html["设置服务帐户"]。
-.. 选择“应用凭据”以检索项目名称和区域。
-.. 从“*项目名称*”中选择您的 Google Cloud 项目的名称。
-.. 从“区域”中选择要创建系统的区域。该区域必须是Google Cloud NetApp Volumes支持的区域之一。
+.. 从*凭据*中，选择要使用的 Google Cloud NetApp Volumes 凭据。
++
+如果未列出任何凭据，请先添加 Google Cloud NetApp Volumes 凭据，然后再继续。在凭据可用之前，项目和区域选择不可用。
+
+.. 在*区域*中，为 Google Cloud NetApp Volumes 选择一个受支持的区域。
 .. 选择*发现*。
 
 
